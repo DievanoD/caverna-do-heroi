@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Quicksand:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../css/contact.css">
+
+    <title>Caverna do herói - Contato</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="container-fluid">
+        <nav class="navbar-top">
+            <div class="section-logo">
+                <img src="../images/logo.png" alt="logo" class="img-logo">
+            </div>
+            <div class="nav-links">
+                <a class="link-item" href="../index.html">Home</a>
+                <a class="link-item" href="history.html">História</a>
+                <a class="link-item" href="characters.html">Personagens</a>
+                <a class="link-item" href="gallery.html">Galeria</a>
+                <a class="link-item" href="trailers.html">Trailers</a>
+                <a class="link-item active" href="contact.html">Contato</a>
+                <a class="link-item" href="about.html">Sobre</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- CONTAINER DO CONTEÚDO PRINCIPAL -->
+    <div class="container">
+        <div class="content-main">
+
+            <!-- DIV TÍTULO PRINCIPAL -->
+            <div class="div-title-main">
+                <div class="title-main">
+                    <span class="title-1 font-Chelsea">Contato</span>
+                </div>
+            </div>
+
+            <div class="form-content">
+                <form method="POST" class="contact-form">
+                    <div class="input-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" class="input-custom" placeholder="Seu nome" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="input-custom" placeholder="Seu email"
+                            required>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="msg" id="msg" cols="50" rows="5" class="textarea-custom"
+                            placeholder="Escreva sua mensagem..." required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn-send">Enviar</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- RODAPÉ -->
+        <div class="div-footer">
+            <div class="content-footer center-vertical-content">
+                <span class="title-4">My hero academia &copy; 2021 | Todos os direitos reservados.</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

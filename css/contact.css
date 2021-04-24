@@ -1,0 +1,66 @@
+.content-main {
+    width: 100%;
+    height: calc(100% - 5rem);
+    background-color: #ffffff;
+}
+
+.div-title-main {
+    height: 4.375rem;
+    background-color: #ed564b;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title-main {
+    padding-top: 0.9375rem;
+}
+
+.form-content {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    width: max-content;
+    padding: 0.5rem;
+}
+
+.input-group {
+    margin: 1rem 0;
+}
+
+.input-custom {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    outline: none;
+    margin-top: 0.1875rem;
+}
+
+.textarea-custom {
+    font-size: 1rem;
+    font-family: inherit;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.btn-send {
+    font-size: 1.125rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3.125rem;
+    border: 0.125rem solid rgb(241, 241, 241);
+    background-color: #ed564b;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-send:hover {
+    opacity: 0.8;
+}
+
+.text-center {
+    text-align: center;
+}

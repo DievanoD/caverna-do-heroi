@@ -1,0 +1,33 @@
+.content-main {
+    width: 100%;
+    height: calc(100% - 5rem);
+    background-color: #ffffff;
+}
+
+.div-title-main {
+    height: 4.375rem;
+    background-color: #ed564b;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title-main {
+    padding-top: 0.9375rem;
+}
+
+.content-about {
+    height: inherit;
+    padding: 1rem 2rem;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.mt-3 {
+    margin-top: 2rem;
+}

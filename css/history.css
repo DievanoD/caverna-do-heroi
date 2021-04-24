@@ -1,0 +1,62 @@
+.content-main {
+    width: 100%;
+    height: min-content;
+    background-color: #ffffff;
+}
+
+.div-title-main {
+    height: 4.375rem;
+    background-color: #ed564b;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title-main {
+    padding-top: 0.9375rem;
+}
+
+.container-text-1 {
+    height: 100%;
+    padding: 0 0.3125rem;
+}
+
+.title-text {
+    margin: 0.625rem 0;
+}
+
+.content-text {
+    text-align: justify;
+}
+
+.col-custom-50 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem 0;
+}
+
+.col-custom-30 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-custom-70 {
+    width: 70%;
+    height: 100%;
+}
+
+.img-MHA {
+    width: 21.875rem;
+    height: 21.875rem;
+}
+
+.img-manga {
+    width: 13.75rem;
+    height: 20.625rem;
+}
+
+@media only screen and (min-width: 1200px) {
+}
