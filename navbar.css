@@ -1,0 +1,116 @@
+/* NAVBAR */
+.container-fluid{
+    /* height: 0; */
+}
+
+.navbar-top {
+    background-color: #ffffff;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+}
+
+.navbar-top a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 1.25rem 1.25rem;
+    text-decoration: none;
+    font-size: 1.0625rem;
+}
+
+.btn-toggle,
+#menu-toggle {
+    display: none;
+}
+
+.section-logo {
+    width: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo {
+    width: 9.375rem;
+    height: 4.375rem;
+}
+
+.nav-links {
+    padding: 0.3125rem;
+    display: flex;
+    align-items: center;
+}
+
+.link-item {
+    margin: 0 0.1875rem;
+}
+
+.link-item.active {
+    background-color: #007bff;
+    color: #f8f9fa;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.link-item:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    border: none;
+    transition: background-color 0.18s ease-in-out;
+    -moz-transition: background-color 0.18s ease-in-out;
+    -webkit-transition: background-color 0.18s ease-in-out;
+}
+
+/* /NAVBAR */
+
+/* FOR PHONE ONLY */
+@media (max-width: 599px) {
+    /* .navbar-toggler {
+        display: block;
+    } */
+    .navbar-top {
+        display: block;
+        max-height: inherit;
+    }
+
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-toggle {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #007bff;
+        font-size: 1.8rem;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        /* padding: 0.3125rem; */
+        display: grid;
+        overflow: hidden;
+        max-height: 0;
+        /* visibility: hidden; */
+        padding: 0;
+        margin: 0;
+        -webkit-transition: all 0.3s ease;
+        /* transition: opacity 1s linear 0s; */
+    }
+
+    #menu-toggle:checked + .nav-links {
+        /* #menu-toggle:checked + #menu-panel { */
+        -webkit-transition: all 0.3s ease;
+        max-height: max-content;
+        /* visibility: visible; */
+        /* transition-property: all;
+        transition-duration: 1s;
+        transition-delay: 0s;
+        transition-timing-function: ease; */
+    }
+}

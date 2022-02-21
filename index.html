@@ -8,7 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Quicksand:wght@500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./navbar.css">
 
     <title>Caverna do herói - Home</title>
 </head>
@@ -17,10 +22,19 @@
     <!-- NAVBAR -->
     <div class="container-fluid">
         <nav class="navbar-top">
-            <div class="section-logo">
-                <img src="images/logo.png" alt="logo" class="img-logo">
+            <div class="navbar-container">
+                <div class="section-logo">
+                    <img src="images/logo.png" alt="logo" class="img-logo">
+                </div>
+                <!-- TOGGLER -->
+                <label class="btn-toggle" for="menu-toggle">
+                    <span><i class="fas fa-bars"></i></span>
+                </label>
             </div>
-            <div class="nav-links">
+
+            <input type="checkbox" id="menu-toggle" />
+
+            <div class="nav-links" id="menu-panel">
                 <a class="link-item active" href="index.html">Home</a>
                 <a class="link-item" href="view/history.html">História</a>
                 <a class="link-item" href="view/characters.html">Personagens</a>
@@ -121,9 +135,11 @@
                             </div>
                             <div class="row-info">
                                 <a href="#link1">
-                                    <img src="images/All_Might_vs_All_For_One.gif" alt="info principal" class="info-img img-rounded">
+                                    <img src="images/All_Might_vs_All_For_One.gif" alt="info principal"
+                                        class="info-img img-rounded">
                                     <div>
-                                        <p class="title-3 info-desc" style="margin: 0;">Os 10 personagens mais fortes de My Hero
+                                        <p class="title-3 info-desc" style="margin: 0;">Os 10 personagens mais fortes de
+                                            My Hero
                                             Academia</p>
                                     </div>
                                     <span class="lbl-publication-date">ontem</span>

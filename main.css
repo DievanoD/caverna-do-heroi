@@ -117,61 +117,6 @@ body {
     font-family: "Chelsea Market", cursive;
 }
 
-.navbar-top {
-    background-color: #ffffff;
-    overflow: hidden;
-    font-family: "Roboto", sans-serif;
-    display: flex;
-}
-
-.navbar-top a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 1.25rem 1.25rem;
-    text-decoration: none;
-    font-size: 1.0625rem;
-}
-
-.section-logo {
-    width: 12.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-logo {
-    width: 9.375rem;
-    height: 4.375rem;
-}
-
-.nav-links {
-    padding: 0.3125rem;
-    display: flex;
-    align-items: center;
-}
-
-.link-item {
-    margin: 0 0.1875rem;
-}
-
-.link-item.active {
-    background-color: #007bff;
-    color: #f8f9fa;
-    border-radius: 0.5rem;
-    border: none;
-}
-
-.link-item:hover {
-    background-color: #007bff;
-    color: #ffffff;
-    border-radius: 0.5rem;
-    border: none;
-    transition: background-color 0.18s ease-in-out;
-    -moz-transition: background-color 0.18s ease-in-out;
-    -webkit-transition: background-color 0.18s ease-in-out;
-}
-
 .banner-class {
     width: 100%;
     height: 33.75rem;
@@ -313,13 +258,15 @@ a .row-news:hover {
     text-align: center;
 }
 
+
+
 /* FOR PHONE ONLY */
-/* @media (max-width: 599px) {
+@media (max-width: 599px) {
     html,
     body {
-        font-size: 14px;
+        font-size: 12px;
     }
-} */
+}
 
 /* FOR TABLET PORTRAIT UP */
 /* @media (min-width: 600px) {
