@@ -115,3 +115,34 @@
     width: 16.875rem;
     height: 17.5rem;
 }
+
+.ty-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* FOR PHONE ONLY */
+@media only screen and (max-width: 599px) {
+    .row-char {
+        height: 100%;
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+
+    .col-custom-30 {
+        border-top: 0.125rem solid rgb(211, 211, 211);
+        border-right: 0.125rem solid rgb(211, 211, 211);
+        border-left: 0.125rem solid rgb(211, 211, 211);
+        border-bottom: none;
+    }
+
+    .col-custom-30,
+    .col-custom-70 {
+        width: 100%;
+    }
+
+    .center-vertical-content {
+        transform: none;
+    }
+}

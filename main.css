@@ -89,6 +89,18 @@ body {
     padding: 0.5rem 0;
 }
 
+.pb-1 {
+    padding-bottom: 0.5rem;
+}
+
+.pb-2 {
+    padding-bottom: 1rem;
+}
+
+.pb-3 {
+    padding-bottom: 1.5rem;
+}
+
 .img-rounded {
     border-radius: 0.625rem;
 }
@@ -258,13 +270,65 @@ a .row-news:hover {
     text-align: center;
 }
 
-
-
 /* FOR PHONE ONLY */
-@media (max-width: 599px) {
+@media only screen and (max-width: 599px) {
     html,
     body {
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    .container {
+        width: inherit;
+        margin: 0;
+        /* margin-left: 15%;
+        margin-right: 15%; */
+        height: calc(100vh - 4.375rem);
+    }
+
+    .banner-class {
+        height: 18.75rem;
+    }
+
+    .title-1 {
+        font-size: 1.675rem;
+    }
+
+    .title-3 {
+        font-size: 1.05rem;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+        height: 100%;
+        border-right: 0.0625rem solid rgb(226, 227, 228);
+        padding: 0 0.625rem;
+    }
+
+    .news-container {
+        padding-bottom: 2.5rem;
+    }
+
+    .row-news {
+        display: block;
+        height: max-content;
+        padding: 0.625rem 0 1.5rem 0;
+    }
+
+    .post-group {
+        padding: 0;
+    }
+
+    .news-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .info-img {
+        height: inherit;
     }
 }
 

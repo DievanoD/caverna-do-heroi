@@ -58,5 +58,14 @@
     height: 20.625rem;
 }
 
+/* FOR PHONE ONLY */
+@media only screen and (max-width: 599px) {
+    .col-custom-30,
+    .col-custom-50,
+    .col-custom-70 {
+        width: 100%;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
 }

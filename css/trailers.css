@@ -53,3 +53,15 @@
     width: 40rem;
     height: 22.5rem;
 }
+
+/* FOR PHONE ONLY */
+@media only screen and (max-width: 599px) {
+    .iframe-trailer {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .row-trailer {
+        height: 100%;
+    }
+}

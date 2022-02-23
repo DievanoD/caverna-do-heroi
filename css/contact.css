@@ -64,3 +64,18 @@
 .text-center {
     text-align: center;
 }
+
+@media only screen and (max-width: 599px) {
+    .form-content {
+        padding: 0 1.5rem;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .textarea-custom {
+        width: 100%;
+        /* padding: 0; */
+    }
+}
