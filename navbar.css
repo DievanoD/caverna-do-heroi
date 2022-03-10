@@ -1,5 +1,5 @@
 /* NAVBAR */
-.container-fluid{
+.container-fluid {
     /* height: 0; */
 }
 
@@ -91,6 +91,10 @@
         cursor: pointer;
     }
 
+    .btn-toggle:active{
+        opacity: 0.5;
+    }
+
     .nav-links {
         /* padding: 0.3125rem; */
         display: grid;
@@ -102,6 +106,11 @@
         -webkit-transition: all 0.3s ease;
         /* transition: opacity 1s linear 0s; */
     }
+
+    /* #menu-toggle:checked + .btn-toggle{
+        background-color: #007bff;
+        color: #ffffff;
+    } */
 
     #menu-toggle:checked + .nav-links {
         /* #menu-toggle:checked + #menu-panel { */
